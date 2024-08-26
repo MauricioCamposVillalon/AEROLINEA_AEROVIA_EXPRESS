@@ -1,0 +1,38 @@
+.bg-barra{
+    background-color: #051B54;
+    color: #fff;
+}
+
+body{
+    font-family: Verdana;
+}
+
+.text-barra{
+    font-family: 'Gill Sans';
+    font-weight: 600;
+   
+}
+
+.bg_obarra{
+    background-color: #62DAD3;
+}
+
+.bt-inicio{
+    background-color:  #FFFFFF33;
+    color:#fff;
+    width: auto;
+    height: auto;
+    border-radius:38%;
+ 
+    
+}
+
+.bt-inicio:hover{
+    background-color: #ffffff36
+     ;
+}
+
+.bt-inicio:active{
+    transform: scale(0.9);
+}
+
