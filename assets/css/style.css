@@ -13,6 +13,11 @@ body{
    
 }
 
+.text-formulario{
+    color: #051B54;
+
+}
+
 .bg_obarra{
     background-color: #62DAD3;
 }
@@ -22,14 +27,13 @@ body{
     color:#fff;
     width: auto;
     height: auto;
-    border-radius:38%;
+    border-radius: 1em 1em;;
  
     
 }
 
 .bt-inicio:hover{
-    background-color: #ffffff36
-     ;
+    background-color: #ffffff36;
 }
 
 .bt-inicio:active{
