@@ -12,13 +12,12 @@
 
 <body>
   <header>
-    <div class="col-12">
+  
       <nav class="navbar navbar-expand-lg bg-barra " data-bs-theme="dark">
         <div class="container-fluid">
           <div class="text-barra me-5">
             AeroVia Express
           </div>
-
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
             data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
             aria-label="Toggle navigation">
@@ -26,121 +25,117 @@
           </button>
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav me-auto mb-2 mb-lg-0 pl-1">
-
-
               <li class="nav-item dropdown">
                 <a class="nav-link dropdown-toggle active" href="#" role="button" data-bs-toggle="dropdown"
                   aria-expanded="false">
                   Ofertas y destinos
                 </a>
-                <ul class="dropdown-menu"></ul> 
-               
+                <ul class="dropdown-menu"></ul>
               </li>
-
               <li class="nav-item dropdown">
                 <a class="nav-link dropdown-toggle active" href="#" role="button" data-bs-toggle="dropdown"
                   aria-expanded="false">
                   Mis viajes
                 </a>
-                <ul class="dropdown-menu"></ul>                     
+                <ul class="dropdown-menu"></ul>
               </li>
-
-              <li class="nav-item">  <!-- Primer Item-->
-                <a class="nav-link active" aria-current="page" href="#">Home</a>
-              </li> <!-- FIN Primer Item-->
-
-              <li class="nav-item"> <!-- segundo Item-->
-                <a class="nav-link" href="#">Link</a>
-              </li><!-- FIN Segundo Item-->
-
-
-              <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
-                  aria-expanded="false">
-                  Dropdown
-                </a>
-                <ul class="dropdown-menu">
-                  <li><a class="dropdown-item" href="#">Action</a></li>
-                  <li><a class="dropdown-item" href="#">Another action</a></li>
-                  <li>
-                    <hr class="dropdown-divider">
-                  </li>
-                  <li><a class="dropdown-item" href="#">Something else here</a></li>
-                </ul>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Centro de Ayuda</a>
               </li>
-
-
-
 
               <li class="nav-item">
-                <a class="nav-link disabled" aria-disabled="true">Disabled</a>
+                <a class="nav-link active" aria-current="page" href="#">Estado de Vuelo</a>
               </li>
             </ul>
-            <button class="btn bt-inicio" type="submit">Iniciar sesion</button>
-
+            <button class="btn bg-btnini rounded-pill" type="submit">Iniciar sesion</button>
           </div>
         </div>
       </nav>
-    </div>
+    
   </header>
+
+
   <main>
-    <div class="col12">
-      <div class="row">
-        <div class="col-12 p-3 col-md-8 p-1 border text-center bg_obarra">
-          <h2>¡Vacaciones de Verano!</h2>
-          <p>
-            ¡Vacaciones de verano! Vuela por Chile y Sudamérica con hasta 40% de descuento. Encuentra paquetes, hoteles, seguros y arriendo de autos en AeroVia Express. Compra aquí”
-          </p>
-        </div>
-        <div class="col-12 p-0  col-md-4 ">
-          <img class=" w-100" src="assets/img/polynesia.jpg" />
-        </div>
-      </div>
-
-    </div>
-    <div class="row justify-content-center mt-3 text-formulario ">
-      <div class="card  col-11 shadow p-3 mb-5 bg-body-tertiary rounded ">
-        <div class="row col-12 ">
-          
-            <ul class="nav nav-tabs ">
-              <li class="nav-item">
-                <a class="nav-link shadow-sm  mb-5 bg-body-tertiary rounded" href="#">Vuelos</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link shadow-sm  mb-5 bg-body-tertiary rounded"  href="#">Paquetes</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link shadow-sm  mb-5 bg-body-tertiary rounded" href="#">Hoteles</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link shadow-sm  mb-5 bg-body-tertiary rounded" href="#">Autos</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link shadow-sm  mb-5 bg-body-tertiary rounded" href="#">Seguros</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link  shadow-sm  mb-5 bg-body-tertiary rounded" href="#">Upgrade</a>
-              </li>
-            </ul>
-          
-         
-        </div>
-
-
-
-        <div class="row col-12 m-1  ">
-          <p class="">Afi otra  </p>
+    
+      
+        <div class="col-12 border text-left bg_obarra">
+          <div class="row ">
+            <div class="col-sm-8 col-12 mt-3">
+              <h2 class="ps-5 col-12">¡Vacaciones de Verano!</h2><br>
+              <p class="ps-5 col-12"> Vuela por Chile y Sudamérica con hasta 40% de descuento.
+              <br><br>Encuentra paquetes, hoteles, seguros y arriendo de autos en AeroVia Express. </p>
+              <a class="ps-5 col-12 txt-subralla" href="#">Compra aquí</a>
+            </div>
+            <div class="col-sm-4 col-12">
+              <img class="img-fluid" src="assets/img/polynesia.jpg" />
+            </div>
           </div>
+          
+        
+        
+        </div>
+        
       </div>
-    
 
-    
+   
+
+  
+    <div class="row  justify-content-center mt-3  text-formulario">
+      <div class="card  col-sm-11 col-11 shadow-lg p-3 mb-5 bg-body-tertiary rounded ">
+        <div class="row ">
+          <div class="col-sm-6 col-12">
+          
+            <nav>
+              <div class="nav nav-tabs" id="nav-tab" role="tablist">
+                <button class="nav-link border border-primary-subtle" id="nav-vuelos-tab" data-bs-toggle="tab" data-bs-target="#nav-vuelos" type="button" role="tab" aria-controls="nav-vuelos" aria-selected="true">Vuelos</button>
+                <button class="nav-link border border-primary-subtle" id="nav-paquetes-tab" data-bs-toggle="tab" data-bs-target="#nav-paquetes" type="button" role="tab" aria-controls="nav-paquetes" aria-selected="false">Paquetes</button>
+                <button class="nav-link border border-primary-subtle" id="nav-hoteles-tab" data-bs-toggle="tab" data-bs-target="#nav-hoteles" type="button" role="tab" aria-controls="nav-hoteles" aria-selected="false">Hoteles</button>
+                <button class="nav-link border border-primary-subtle" id="nav-autos-tab" data-bs-toggle="tab" data-bs-target="#nav-autos" type="button" role="tab" aria-controls="nav-autos" aria-selected="false">Autos</button>
+                <button class="nav-link border border-primary-subtle" id="nav-seguros-tab" data-bs-toggle="tab" data-bs-target="#nav-seguros" type="button" role="tab" aria-controls="nav-seguros" aria-selected="false" >Seguros</button>
+                <button class="nav-link border border-primary-subtle" id="nav-upgrade-tab" data-bs-toggle="tab" data-bs-target="#nav-upgrade" type="button" role="tab" aria-controls="nav-upgrade" aria-selected="false"  >Upgrade</button>
+              </div>
+            </nav>
+            <div class="tab-content" id="nav-tabContent">
+              <div class="tab-pane fade" id="nav-vuelos" role="tabpanel" aria-labelledby="nav-vuelos-tab" tabindex="0"></div>
+              <div class="tab-pane fade" id="nav-paquetes" role="tabpanel" aria-labelledby="nav-paquetes-tab" tabindex="0"></div>
+              <div class="tab-pane fade" id="nav-hoteles" role="tabpanel" aria-labelledby="nav-hoteles-tab" tabindex="0"></div>
+              <div class="tab-pane fade" id="nav-autos" role="tabpanel" aria-labelledby="nav-autos-tab" tabindex="0"></div>
+              <div class="tab-pane fade" id="nav-seguros" role="tabpanel" aria-labelledby="nav-seguros-tab" tabindex="0"></div>
+              <div class="tab-pane fade" id="nav-upgrade" role="tabpanel" aria-labelledby="nav-upgrade-tab" tabindex="0"></div>
+            </div>
+        </div>
+        <div class="col-sm-6 col-0">
+
+        </div>
+      </div>
+
+
+        <div class="row  m-5 ">
+          <form>
+            <div class="col-12 mb-3">
+              <label for="exampleInputEmail1" class="form-label">Email address</label>
+              <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+              <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+            </div>
+            <div class="col-12 mb-3">
+              <label for="exampleInputPassword1" class="form-label">Password</label>
+              <input type="password" class="form-control" id="exampleInputPassword1">
+              <button type="submit" class="btn btn-primary">Submit</button>
+            </div>
+            
+            
+          </form>
+        </div>
+      </div>
+
+
+
 
 
     </div>
-    
 
-    
+
+
 
 
 

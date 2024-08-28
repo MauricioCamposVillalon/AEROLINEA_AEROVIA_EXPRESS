@@ -9,7 +9,8 @@ body{
 
 .text-barra{
     font-family: 'Gill Sans';
-    font-weight: 600;
+    font-weight: 800;
+    font-size: 18px;
    
 }
 
@@ -22,14 +23,18 @@ body{
     background-color: #62DAD3;
 }
 
-.bt-inicio{
+.bg-btnini{
     background-color:  #FFFFFF33;
     color:#fff;
     width: auto;
     height: auto;
-    border-radius: 1em 1em;;
+  /*  border-radius: 1em 1em;*/
  
     
+}
+
+.esp{
+    margin-top: 0.2%;
 }
 
 .bt-inicio:hover{
@@ -40,3 +45,8 @@ body{
     transform: scale(0.9);
 }
 
+
+.txt-subralla{
+    text-decoration: none;
+    font-weight: 500;
+}
